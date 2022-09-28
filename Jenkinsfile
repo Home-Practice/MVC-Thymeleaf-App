@@ -18,7 +18,7 @@ pipeline
         {
             steps
             {
-              git branch: 'master', credentialsId: '034672a4-2c42-46e2-956c-12b44d44a50e', url: 'https://github.com/Home-Practice/MVC-Thymeleaf-App.git'
+              git branch: 'release', credentialsId: '034672a4-2c42-46e2-956c-12b44d44a50e', url: 'https://github.com/Home-Practice/MVC-Thymeleaf-App.git'
 
             }
         }
